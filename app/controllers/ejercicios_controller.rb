@@ -39,7 +39,7 @@ class EjerciciosController < ApplicationController
   private
 
   def ejercicio_params
-    params.permit(:nombre, :musculo, :maquina, :repeticiones, :series, :peso)
+    params.permit(:nombre, :musculo, :maquina, :repeticiones, :series, :peso, :dia)
   end
 
   def set_entrenador
